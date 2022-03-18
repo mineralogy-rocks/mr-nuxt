@@ -1,0 +1,17 @@
+{
+    "eslint.options": {
+        "configFile": ".eslintrc.js"
+    },
+    "vetur.format.defaultFormatter.html": "none",
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2
+    },
+    "[vue]": {
+        "editor.formatOnSave": false,
+        "editor.tabSize": 2
+    }
+}

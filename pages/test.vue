@@ -1,23 +1,26 @@
 <template>
-    <div></div>
+    <div>
+        <p ref="safsa"
+           class="assme" 
+           some="asfsaf" 
+           saomfsa="safsaf" 
+           key="afs"></p>
+    </div>
 </template>
 
 <script>
-export default {
-    name:'some', 
+    export default {
+        name: 'AnotherSome',
+        props: {},
 
-    computed: {},
+        watch: {},
 
-    props: {
-
-    },
-
-    methods: {
-
-    },
-
-    watch: {
-        
-    }
-}
+        methods: {
+            test() {
+                const some = 'asfasf';
+                var some1 = 'safas';
+                let a = 'asfasf';
+            },
+        },
+    };
 </script>

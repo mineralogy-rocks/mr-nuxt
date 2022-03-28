@@ -1,23 +1,43 @@
 module.exports = {
     root: true,
+
     env: {
         node: true,
         browser: true,
     },
+
+    parserOptions: {
+        parser: '@babel/eslint-parser',
+        ecmaVersion: 'latest',
+        requireConfigFile: false,
+        sourceType: 'module',
+    },
+
     extends: [
-        'plugin:vue/recommended',
-        'plugin:nuxt/recommended',
-        'plugin:prettier/recommended',
         'eslint:recommended',
+        '@nuxtjs',
+        'plugin:nuxt/recommended',
+        'plugin:vue/recommended',
+        'plugin:prettier-vue/recommended',
         'prettier',
-        '@vue/prettier',
     ],
-    plugins: ['prettier', 'vue'],
+    plugins: ['prettier-vue'],
+
+    settings: {
+        'prettier-vue': {
+            SFCBlocks: {
+                template: false,
+            },
+        },
+    },
+
     rules: {
-        'prettier/prettier': 'error',
+        'prettier-vue/prettier': ['warn'],
+        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'vue/component-name-in-template-casing': ['error', 'PascalCase'],
         'vue/script-indent': [
-            'error',
+            'warn',
             4,
             {
                 baseIndent: 1,
@@ -25,33 +45,41 @@ module.exports = {
                 ignores: [],
             },
         ],
-        'vue/max-attributes-per-line': [
-            2,
+        'vue/first-attribute-linebreak': [
+            'warn',
             {
-                singleline: 3,
-                multiline: {
-                    max: 1,
-                },
+                singleline: 'ignore',
+                multiline: 'beside',
             },
         ],
-        'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+        'vue/max-attributes-per-line': [
+            'warn',
+            {
+                singleline: 3,
+                multiline: 1,
+            },
+        ],
+        'vue/html-closing-bracket-newline': [
+            'warn',
+            {
+                singleline: 'never',
+                multiline: 'never',
+            },
+        ],
+        'vue/html-indent': [
+            'warn',
+            4,
+            {
+                attribute: 2,
+                baseIndent: 1,
+                closeBracket: 0,
+                alignAttributesVertically: true,
+                ignores: [],
+            },
+        ],
     },
+
     globals: {
         $nuxt: true,
     },
-    parserOptions: {
-        parser: '@babel/eslint-parser',
-        requireConfigFile: false,
-    },
-    overrides: [
-        {
-            files: ['./**/*.vue'],
-            parser: require.resolve('vue-eslint-parser'),
-            parserOptions: {
-                ecmaVersion: 2020,
-                sourceType: 'module',
-            },
-        },
-    ],
 };

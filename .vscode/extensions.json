@@ -6,6 +6,8 @@
       "ms-python.python",
       "dbaeumer.vscode-eslint",
       "lextudio.restructuredtext",
-      "timonwong.shellcheck"
+      "timonwong.shellcheck",
+      "sdras.vue-vscode-snippets",
+      "bradlc.vscode-tailwindcss"
     ]
   }

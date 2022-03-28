@@ -1,40 +1,23 @@
 {
-    "eslint.options": {
-        "overrideConfigFile": ".eslintrc.js"
-    },
-    "eslint.enable": true,
-    "eslint.validate": [
-        "javascript",
-        "vue",
-        "json",
-        "jsonc"
-    ],
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
     "editor.formatOnSave": false,
     "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
 
     "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": false,
         "editor.tabSize": 4
     },
 
     "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": false,
         "editor.tabSize": 4
     },
     "prettier.configPath": ".prettierrc",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.html": "none",
     "vetur.format.defaultFormatter.js": "none",
-    "vetur.format.defaultFormatterOptions": {
-        "js-beautify-html": {
-            "wrap_attributes": "force-aligned",
-            "wrap_line_length": 100
-        },
-        "prettyhtml": {
-        "printWidth": 100,
-        "singleQuote": false,
-        "wrapAttributes": false,
-        "sortAttributes": false
-        }
-    },
+    "vetur.validation.template": false
 }

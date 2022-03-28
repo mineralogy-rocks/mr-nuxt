@@ -1,14 +1,14 @@
 <template>
-  <Tutorial />
+    <Tutorial />
 </template>
 
 <script>
-import Tutorial from 'Components/Tutorial';
-export default {
-  name: 'IndexPage',
+    import Tutorial from 'Components/Tutorial';
+    export default {
+        name: 'IndexPage',
 
-  components: {
-    Tutorial
-  }
-}
+        components: {
+            Tutorial,
+        },
+    };
 </script>

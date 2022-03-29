@@ -4,9 +4,14 @@ module.exports = {
     darkMode: false,
     theme: {
         fontFamily: {
-            sans: ['Exo 2', 'sans-serif'],
+            sans: ["'Exo 2'", 'sans-serif'],
         },
-        extend: {},
+        extend: {
+            minHeight: {
+                1.2: '1.2rem',
+                3: '3rem',
+            },
+        },
     },
     variants: {
         extend: {},

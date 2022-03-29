@@ -34,15 +34,13 @@ export default {
         host: '0.0.0.0',
     },
 
-    css: [],
+    css: ['@/assets/main.scss'],
 
     plugins: ['~/plugins/axios.js'],
 
     components: false,
 
-    alias: {
-        Components: resolve(__dirname, './components'),
-    },
+    alias: { Components: resolve(__dirname, './components') },
 
     buildModules: ['@nuxtjs/tailwindcss'],
 

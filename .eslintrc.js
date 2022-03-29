@@ -35,7 +35,13 @@ module.exports = {
         'prettier-vue/prettier': ['warn'],
         'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-        'vue/component-name-in-template-casing': ['error', 'PascalCase'],
+        'vue/component-name-in-template-casing': ['error', 'kebab-case'],
+        'vue/multi-word-component-names': [
+            'error',
+            {
+                ignores: ['Toolbar'],
+            },
+        ],
         'vue/script-indent': [
             'warn',
             4,

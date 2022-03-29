@@ -19,5 +19,6 @@
     "prettier.configPath": ".prettierrc",
     "vetur.format.defaultFormatter.html": "none",
     "vetur.format.defaultFormatter.js": "none",
-    "vetur.validation.template": false
+    "vetur.validation.template": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

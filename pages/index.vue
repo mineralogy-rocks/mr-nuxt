@@ -8,7 +8,7 @@
             </h1>
         </div>
     </header>
-</template>
+</template> 
 
 <script>
     export default {

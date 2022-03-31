@@ -20,6 +20,20 @@
                 Our platform is designed both for researchers and developers.
             </p>
         </div>
+
+        <section class="text-center px-2 mt-14 mx-auto">
+            <div class="flex justify-center">
+                <div class="flex self-center bg-green-300 rounded-full pr-2">
+                    <span class="mdi mdi-magnify"></span>
+                </div>
+                <h3 class="font-bold text-2xl sm:text-3xl md:text-4xl">Explore</h3>
+            </div>
+            <h2 class="font-black text-3xl sm:text-4xl md:text-6xl mx-auto">Start with exploring the data</h2>
+            <p class="text-sm text-gray-500 text-center mt-7">
+                The platform is developed by the researchers for the researchers. Our goal is to provide data for scientific needs in a coherent fashion. </br> 
+                Start with finding the right subset of data and exploring the relations between minerals.
+            </p>
+        </section>
     </header>
 </template> 
 

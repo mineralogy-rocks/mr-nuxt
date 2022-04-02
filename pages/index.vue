@@ -23,7 +23,7 @@
 
         <section class="text-center px-6 sm:px-8 mt-20 mx-auto">
             <div class="flex justify-center items-center">
-                <div class="flex self-center justify-center bg-cyan-300 rounded-full h-10 w-10 md:h-14 md:w-14 mr-3">
+                <div class="flex self-center justify-center bg-teal-300 rounded-full h-10 w-10 md:h-14 md:w-14 mr-3">
                     <span class="mdi text-3xl md:text-5xl mdi-magnify"></span>
                 </div>
                 <h3 class="font-bold text-2xl md:text-4xl">Explore</h3>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="relative md:col-span-6">
-                    <div class="relative overflow-hidden shadow-xl flex bg-red-50 h-32 max-h-36 sm:max-h-[none] rounded-xl lg:h-32 xl:h-34">
+                    <div class="relative overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
                         <div class="relative w-full flex flex-col">
                             <div class="flex-none border-b border-gray-500/30">
                                 <div class="flex items-center bg-gray-600 h-8 space-x-1.5 px-3">
@@ -55,47 +55,7 @@
                             <div class="relative min-h-0 flex-auto flex flex-col">
                                 <div class="w-full relative flex-auto flex min-h-0 overflow-auto">
                                     <div class="w-full relative flex-auto">
-                                        <pre class="flex min-h-full text-sm leading-6">
-                                            <div aria-hidden="true" class="block text-gray-600 flex-none py-1 pr-4 text-left select-none" style="width:50px">
-                                                1
-                                                2
-                                                3
-                                                4
-                                                5
-                                            </div>
-                                            <!-- <code class="flex-auto relative block text-black pt-4 pb-4 px-4 overflow-auto">
-                                                <span class="token tag">
-                                                    <span class="token punctuation">&lt;</span>figure
-                                                    <span class="token attr-name">class</span>
-                                                    <span class="token attr-value">
-                                                        <span class="token punctuation">=</span>
-                                                        <span class="token punctuation">"</span>
-                                                        <span>m</span>
-                                                        <span>d</span>
-                                                        <span>:</span>
-                                                        <span>f</span>
-                                                        <span>l</span>
-                                                        <span>e</span>
-                                                        <span>x</span>
-                                                        <span> </span>
-                                                            bg-slate-100 rounded-xl
-                                                        <span> </span>
-                                                        <span>p</span>
-                                                        <span>-</span>
-                                                        <span>8</span>
-                                                        <span> </span>
-                                                        <span>m</span>
-                                                        <span>d</span>
-                                                        <span>:</span>
-                                                        <span>p</span>
-                                                        <span>-</span>
-                                                        <span>0</span> 
-                                                            dark:bg-slate-800
-                                                        <span class="token punctuation">"</span>
-                                                    </span>
-                                                    <span class="token punctuation">&gt;</span>
-                                                </span>
-                                            </code> -->
+                                        <pre class="text-sm leading-6 font-bold text-gray-900 flex ligatures-none overflow-auto"><code class="flex-none min-w-full p-5"><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto">curl -G -d 'offset=10' -d 'ordering=status_id' https://api.mineralogy.rocks/v1/status</span></span><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto">wget "https://api.mineralogy.rocks/v1/status/?ordering=status_id&offset=10"</span></span></code>
                                         </pre>
                                     </div>
                                 </div>

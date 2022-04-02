@@ -6,7 +6,18 @@ module.exports = {
     darkMode: false,
     theme: {
         colors: {
-            ...colors
+            transparent: 'transparent',
+            current: 'currentColor',
+            black: colors.black,
+            white: colors.white,
+            gray: colors.gray,
+            emerald: colors.emerald,
+            indigo: colors.indigo,
+            yellow: colors.yellow,
+            green: colors.green,
+            red: colors.red,
+            teal: colors.teal,
+            pink: colors.pink,
         },
         fontFamily: {
             sans: ["'Exo 2'", 'sans-serif'],

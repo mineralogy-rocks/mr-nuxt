@@ -55,7 +55,12 @@
                             <div class="relative min-h-0 flex-auto flex flex-col">
                                 <div class="w-full relative flex-auto flex min-h-0 overflow-auto">
                                     <div class="w-full relative flex-auto">
-                                        <pre class="text-sm text-left leading-6 font-bold text-gray-900 flex ligatures-none overflow-auto"><code class="flex-none min-w-full p-5"><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto"><span class="text-indigo-700">curl</span> -G -d 'offset=10' -d 'ordering=status_id' https://api.mineralogy.rocks/v1/status</span></span><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto"><span class="text-indigo-700">wget</span> "https://api.mineralogy.rocks/v1/status/?ordering=status_id&offset=10"</span></span></code>
+                                        <pre class="text-sm text-left leading-6 font-bold text-gray-900 flex ligatures-none overflow-auto"><code class="flex-none min-w-full p-5"><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto"><span class="text-indigo-700">curl</span> -X GET \
+         -H "Content-type: application/json" \
+         -H "Accept: application/json" \
+         -d "offset=10" \
+         -d "ordering=status_id" \ 
+         "https://api.mineralogy.rocks/v1/status"</span></span></code>
                                         </pre>
                                     </div>
                                 </div>
@@ -66,7 +71,7 @@
             </div>
 
 
-            <div class="max-w-4xl mx-auto px-3 sm:px-4 md:px-6 md:grid md:grid-cols-12 space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
+            <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
                 <div class="md:col-span-6 flex flex-col">
                     <h4 class="font-bold text-xl md:text-3xl">Researcher?</h4>
                     <p class="text-sm text-gray-500 text-justify mt-5">
@@ -75,13 +80,46 @@
                 </div>
 
                 <div class="md:col-span-6 flex flex-col">
-                    <h4 class="font-bold text-xl md:text-3xl">Researcher?</h4>
-                    <p class="text-sm text-gray-500 text-center mt-5">
-                        Check out our filtering system at mineralogy.rocks/explore. You are able to make complex queries, combine those and explore the results.
-                    </p>
+                    <div class="text-left text-sm text-gray-500">
+                        <div class="flex items-center">
+                            <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-clock-outline mr-2"></span>
+                            <p>Discovery year between 1999 and 2001</p>
+                            <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-arrow-right-thin mx-2"></span>
+                            </p>1,401 minerals</p>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-map-marker-check mr-2"></span>
+                            <p>Discovery country in EU</p>
+                            <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-arrow-right-thin mx-2"></span>
+                            </p>198 minerals</p>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-atom mr-2"></span>
+                            <p>Mineral formula contains As<sup>5+</sup></p>
+                        </div>
+                        <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-arrow-down-thin mr-2"></span>
+                        <div class="flex items-center">
+                            <span class="mdi text-black text-base sm:text-lg md:text-xl mdi-check-circle mr-2"></span>
+                            <p>Vicanite-(Ce)</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="md:col-span-6 flex flex-col"></div>
             </div>
+        </section>
+
+        <section class="text-center px-6 sm:px-8 mt-20 mx-auto">
+            <div class="flex justify-center items-center">
+                <div class="flex self-center justify-center bg-teal-300 rounded-full h-10 w-10 md:h-14 md:w-14 mr-3">
+                    <span class="mdi text-3xl md:text-5xl mdi-magnify"></span>
+                </div>
+                <h3 class="font-bold text-2xl md:text-4xl">Extract</h3>
+            </div>
+            <h2 class="font-black text-3xl sm:text-4xl md:text-6xl mx-auto mt-4">Start with exploring the data</h2>
+            <p class="text-sm px-4 md:px-6 text-gray-500 text-center mt-7">
+                The platform is developed by the researchers for the researchers. Our goal is to provide data for scientific needs in a coherent fashion. </br> 
+                Start with finding the right subset of data and exploring the relations between minerals.
+            </p>
         </section>
     </header>
 </template> 

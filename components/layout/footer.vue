@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-black sticky min-h-3 top-0 z-20 w-full shadow-xl">
+    <header class="bg-black min-h-3 bottom-0 z-20 w-full shadow-xl">
         <div class="mx-auto">
             <div class="py-2 mx-4 lg:mx-2">
                 <nav class="flex items-center justify-around text-sm sm:text-lg md:text-xl">
@@ -26,7 +26,7 @@
 
 <script>
     export default {
-        name: 'Toolbar',
+        name: 'Footer',
     };
 </script>
 

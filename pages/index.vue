@@ -8,7 +8,7 @@
             </h1>
         </div>
 
-        <div class="relative mx-auto px-6 sm:px-8 mt-14 md:mt-20">
+        <div class="mx-auto px-6 sm:px-8 mt-14 md:mt-20">
             <div class="flex justify-center">
                 <button type="button" class="bg-black hover:bg-gray-800 px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 text-sm leading-5 rounded font-semibold text-white drop-shadow-sm">
                     Start Exploring
@@ -42,9 +42,9 @@
                     </p>
                 </div>
 
-                <div class="relative md:col-span-6">
-                    <div class="relative overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
-                        <div class="relative w-full flex flex-col">
+                <div class="md:col-span-6">
+                    <div class="overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
+                        <div class="w-full flex flex-col">
                             <div class="flex-none border-b border-gray-500/30">
                                 <div class="flex items-center bg-gray-600 h-8 space-x-1.5 px-3">
                                     <div class="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
@@ -52,9 +52,9 @@
                                     <div class="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
                                 </div>
                             </div>
-                            <div class="relative min-h-0 flex-auto flex flex-col">
-                                <div class="w-full relative flex-auto flex min-h-0 overflow-auto">
-                                    <div class="w-full relative flex-auto">
+                            <div class="min-h-0 flex-auto flex flex-col">
+                                <div class="w-full flex-auto flex min-h-0 overflow-auto">
+                                    <div class="w-full flex-auto">
                                         <pre class="text-sm text-left leading-6 font-bold text-gray-900 flex ligatures-none overflow-auto"><code class="flex-none min-w-full p-5"><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto"><span class="text-indigo-700">curl</span> -X GET \
          -H "Content-type: application/json" \
          -H "Accept: application/json" \
@@ -123,9 +123,9 @@
 
             <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
 
-                <div class="relative md:col-span-6">
-                    <div class="relative overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
-                        <div class="relative w-full flex flex-col">
+                <div class="md:col-span-6">
+                    <div class="overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
+                        <div class="w-full flex flex-col">
                             <div class="flex-none border-b border-gray-500/30">
                                 <div class="flex items-center bg-gray-600 h-8 space-x-1.5 px-3">
                                     <div class="w-2.5 h-2.5 bg-red-500 rounded-full"></div>
@@ -133,9 +133,9 @@
                                     <div class="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
                                 </div>
                             </div>
-                            <div class="relative min-h-0 flex-auto flex flex-col">
-                                <div class="w-full relative flex-auto flex min-h-0 overflow-auto">
-                                    <div class="w-full relative flex-auto">
+                            <div class="min-h-0 flex-auto flex flex-col">
+                                <div class="w-full flex-auto flex min-h-0 overflow-auto">
+                                    <div class="w-full flex-auto">
                                         <pre class="text-sm text-left leading-6 font-bold text-gray-900 flex ligatures-none overflow-auto"><code class="flex-none min-w-full p-5"><span class="flex"><svg viewBox="0 -9 3 24" aria-hidden="true" class="flex-none overflow-visible text-pink-400 w-auto h-6 mr-3"><path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="flex-auto"><span class="text-indigo-700">query params</span> = {
         <span class="text-pink-600">color</span>: "blue",
         <span class="text-pink-600">cations__in</span>: ["Cu2+"],
@@ -188,7 +188,7 @@
             </p>
 
             <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
-                <div class="relative md:col-span-6">
+                <div class="md:col-span-6">
                     <div class="flex justify-center items-center">
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Contribute<span class="mdi text-2xl md:text-3xl mdi-github ml-2"></span></h4>
                     </div>
@@ -206,6 +206,12 @@
                         University of Bern (Switzerland) and University of Oulu (Finland).
                     </p>
                 </div>
+            </div>
+        </section>
+
+        <section class="text-center px-6 sm:px-8 mt-40 mx-auto">
+            <div class="flex justify-center items-center">
+                <h3 class="font-bold text-2xl md:text-4xl">Supported by</h3>
             </div>
         </section>
     </header>

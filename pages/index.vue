@@ -210,8 +210,20 @@
         </section>
 
         <section class="text-center px-6 sm:px-8 mt-40 mx-auto">
-            <div class="flex justify-center items-center">
+            <div class="flex flex-col justify-center items-center">
                 <h3 class="font-bold text-2xl md:text-4xl">Supported by</h3>
+                <div class="flex flex-row max-w-screen-xl mx-auto mt-10 gap-2">
+                    <img src="/img/SAV_logo.jpg" alt="SAV" class="w-36 h-36" />
+                    <img src="/img/UK_logo.png" alt="UK" class="w-42 h-36" />
+                    <img src="/img/UK_FNS_logo.png" alt="PrifUK" class="w-42 h-36" />
+                    <img src="/img/MSCA_logo.png" alt="MSCA" class="h-32" />
+                </div>
+
+                <div class="max-w-screen-sm text-center mt-5">
+                    <p class="text-sm text-gray-500">
+                        This project has received funding from the European Union´s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 945478.
+                    </p>
+                </div>
             </div>
         </section>
     </header>

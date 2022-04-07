@@ -1,0 +1,24 @@
+{
+    "eslint.validate": ["javascript", "javascriptreact", "vue"],
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+        "editor.tabSize": 4
+    },
+
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+        "editor.tabSize": 4
+    },
+    "prettier.configPath": ".prettierrc",
+    "vetur.format.defaultFormatter.html": "none",
+    "vetur.format.defaultFormatter.js": "none",
+    "vetur.validation.template": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

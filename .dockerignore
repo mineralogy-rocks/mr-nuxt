@@ -1,0 +1,16 @@
+/.env.sample
+
+/.editorconfig
+
+/.gitignore
+/.gitattributes
+
+/build
+/node_modules
+
+/.idea
+/.vscode
+/.tscache
+/.github
+
+/*.Dockerfile

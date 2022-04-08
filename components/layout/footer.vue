@@ -20,7 +20,7 @@
                     </ul>
                 </nav> -->
                 <div class="flex flex-row justify-center text-white text-xs font-bold">
-                    <div class="bg-white mr-0.5 text-center self-center">
+                    <div class="bg-white mr-1 text-center self-center">
                         <span class="text-black">M</span>
                     </div>
                     <span>Copyright of mineralogy.rocks (2022). All rights reserved.</span>

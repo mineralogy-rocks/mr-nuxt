@@ -18,6 +18,8 @@ module.exports = {
             red: colors.red,
             teal: colors.teal,
             pink: colors.pink,
+            blue: colors.blue,
+            purple: colors.purple,
         },
         fontFamily: {
             sans: ["'Exo 2'", 'sans-serif'],

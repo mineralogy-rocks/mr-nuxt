@@ -193,8 +193,10 @@
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Contribute<span class="mdi text-2xl md:text-3xl mdi-github ml-2"></span></h4>
                     </div>
                     <p class="text-sm text-gray-500 text-justify mt-5">
-                        Join our computing organization mineralogy-rocks and start contributing as a member. We will guide you in setting up the environment and 
-                        provide help at every step of development process.
+                        Join our computing community 
+                        <a class="text-blue-600 visited:text-purple-600" href="https://github.com/mineralogy-rocks" target="_blank">mineralogy-rocks</a> 
+                        and start contributing as a member. We will guide you in setting up the environment and 
+                        provide help at every step of the development process.
                     </p>
                 </div>
                 <div class="md:col-span-6">
@@ -202,8 +204,10 @@
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Core team<span class="mdi text-2xl md:text-3xl mdi-account-group ml-2"></span></h4>
                     </div>
                     <p class="text-sm text-gray-500 text-justify mt-5">
-                        The core team consists of world class researchers in the area of mineralogy, geochemistry, petrology and geology from Comenius University (Slovakia), 
-                        University of Bern (Switzerland) and University of Oulu (Finland).
+                        The core team consists of world class researchers in the area of mineralogy, geochemistry, petrology and geology from 
+                        <a class="text-blue-600 visited:text-purple-600" href="https://uniba.sk" target="_blank">Comenius University (Slovakia) 🇸🇰</a>, 
+                        <a class="text-blue-600 visited:text-purple-600" href="https://www.unibe.ch/index_eng.html" target="_blank">University of Bern (Switzerland) 🇨🇭</a>
+                        and <a class="text-blue-600 visited:text-purple-600" href="https://www.oulu.fi/en" target="_blank">University of Oulu (Finland) 🇫🇮</a>.
                     </p>
                 </div>
             </div>
@@ -212,16 +216,25 @@
         <section class="text-center px-6 sm:px-8 mt-40 mx-auto">
             <div class="flex flex-col justify-center items-center">
                 <h3 class="font-bold text-2xl md:text-4xl">Supported by</h3>
-                <div class="flex flex-row max-w-screen-xl mx-auto mt-10 gap-2">
-                    <img src="/img/SAV_logo.jpg" alt="SAV" class="w-36 h-36" />
-                    <img src="/img/UK_logo.png" alt="UK" class="w-42 h-36" />
-                    <img src="/img/UK_FNS_logo.png" alt="PrifUK" class="w-42 h-36" />
-                    <img src="/img/MSCA_logo.png" alt="MSCA" class="h-32" />
+                <div class="flex flex-row max-w-screen-xl mx-auto mt-10 gap-2 lg:gap-3 items-center">
+                    <a href="https://www.sav.sk/" target="_blank">
+                        <img src="/img/SAV_logo.jpg" alt="SAV" class="w-24 h-auto" />
+                    </a>
+                    <a href="https://uniba.sk" taget="_blank">
+                        <img src="/img/UK_logo.png" alt="UK" class="w-52 h-auto" />
+                    </a>
+                    <a href="https://fns.uniba.sk/" taget="_blank">
+                        <img src="/img/UK_FNS_logo.png" alt="PrifUK" class="w-52 h-auto" />
+                    </a>
+                    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank">
+                        <img src="/img/MSCA_logo.png" alt="MSCA" class="w-52 h-auto" />
+                    </a>
                 </div>
 
                 <div class="max-w-screen-sm text-center mt-5">
                     <p class="text-sm text-gray-500">
-                        This project has received funding from the European Union´s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 945478.
+                        This project has received funding from the European Union´s Horizon 2020 research and innovation programme under the 
+                        Marie Skłodowska-Curie grant agreement No 945478.
                     </p>
                 </div>
             </div>

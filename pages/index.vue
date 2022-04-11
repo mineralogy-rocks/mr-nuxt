@@ -1,25 +1,27 @@
 <template>
-    <header>
-        <div class="flex items-center mt-24">
-            <h1 class="font-black text-6xl sm:text-7xl md:text-8xl mx-auto">
-                Explore. </br>
-                Extract. </br>
-                Research.
-            </h1>
-        </div>
-
-        <div class="mx-auto px-6 sm:px-8 mt-14 md:mt-20">
-            <div class="flex justify-center">
-                <button type="button" class="bg-black hover:bg-gray-800 px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 text-sm leading-5 rounded font-semibold text-white drop-shadow-sm">
-                    Start Exploring
-                </button>
+    <div>
+        <header>
+            <div class="flex items-center mt-24">
+                <h1 class="font-black text-6xl sm:text-7xl md:text-8xl mx-auto">
+                    Explore. </br>
+                    Extract. </br>
+                    Research.
+                </h1>
             </div>
 
-            <p class="text-sm text-gray-500 text-center mt-7">
-                Mineralogy.rocks provide seamless and simple way to access and filter mineralogical and related data. </br>
-                Our platform is designed both for researchers and developers.
-            </p>
-        </div>
+            <div class="mx-auto px-6 sm:px-8 mt-14 md:mt-20">
+                <div class="flex justify-center">
+                    <button type="button" class="bg-black hover:bg-gray-800 px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 text-sm leading-5 rounded font-semibold text-white drop-shadow-sm">
+                        Start Exploring
+                    </button>
+                </div>
+
+                <p class="text-sm text-gray-500 text-center mt-7">
+                    Mineralogy.rocks provide seamless and simple way to access and filter mineralogical and related data. </br>
+                    Our platform is designed both for researchers and developers.
+                </p>
+            </div>
+        </header>
 
         <section class="text-center px-6 sm:px-8 mt-20 mx-auto">
             <div class="flex justify-center items-center">
@@ -216,7 +218,7 @@
         <section class="text-center px-6 sm:px-8 mt-40 mx-auto">
             <div class="flex flex-col justify-center items-center">
                 <h3 class="font-bold text-2xl md:text-4xl">Supported by</h3>
-                <div class="flex flex-row max-w-screen-xl mx-auto mt-10 gap-2 lg:gap-3 items-center">
+                <div class="flex flex-row flex-wrap max-w-screen-xl mx-auto mt-10 gap-2 md:gap-5 lg:gap-10 items-center justify-evenly">
                     <a href="https://www.sav.sk/" target="_blank">
                         <img src="/img/SAV_logo.jpg" alt="SAV" class="w-24 h-auto" />
                     </a>
@@ -224,14 +226,14 @@
                         <img src="/img/UK_logo.png" alt="UK" class="w-52 h-auto" />
                     </a>
                     <a href="https://fns.uniba.sk/" taget="_blank">
-                        <img src="/img/UK_FNS_logo.png" alt="PrifUK" class="w-52 h-auto" />
+                        <img src="/img/UK_FNS_logo.png" alt="PrifUK" class="w-60 h-auto" />
                     </a>
                     <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank">
                         <img src="/img/MSCA_logo.png" alt="MSCA" class="w-52 h-auto" />
                     </a>
                 </div>
 
-                <div class="max-w-screen-sm text-center mt-5">
+                <div class="max-w-screen-sm text-center mt-10">
                     <p class="text-sm text-gray-500">
                         This project has received funding from the European Union´s Horizon 2020 research and innovation programme under the 
                         Marie Skłodowska-Curie grant agreement No 945478.
@@ -239,7 +241,7 @@
                 </div>
             </div>
         </section>
-    </header>
+    </div>
 </template> 
 
 <script>

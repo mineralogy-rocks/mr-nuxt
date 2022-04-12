@@ -1,8 +1,8 @@
 <template>
-    <header class="bg-black sticky min-h-3 top-0 z-20 w-full shadow-xl">
+    <header class="bg-black sticky min-h-2 sm:min-h-3 top-0 z-20 w-full shadow-xl">
         <div class="mx-auto">
             <div class="py-2 mx-4 lg:mx-2">
-                <nav class="flex items-center justify-around text-sm sm:text-lg md:text-xl">
+                <nav class="flex items-center justify-between sm:justify-around text-sm sm:text-lg md:text-xl">
                     <ul class="flex text-white font-semibold">
                         <n-link class="underline-animation" :to="'/'">
                             <div class="flex flex-row">
@@ -16,7 +16,7 @@
                     <ul class="flex text-white font-semibold mr-4 space-x-2 sm:space-x-6 md:space-x-10">
                         <n-link class="underline-animation" :to="'/explore'">Explore</n-link>
                         <n-link class="underline-animation" :to="'/about'">About</n-link>
-                        <n-link class="underline-animation" :to="'/contact'">Contact us</n-link>
+                        <n-link class="hidden sm:inline underline-animation" :to="'/contact'">Contact us</n-link>
                     </ul>
                 </nav>
             </div>

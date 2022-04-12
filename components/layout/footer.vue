@@ -1,10 +1,10 @@
 <template>
     <footer class="bg-black min-h-4 bottom-0 z-20 w-full shadow-xl mt-20 mx-auto">
         <div class="max-w-7xl mx-auto divide-y divide-gray-600 px-10 sm:px-16 md:px-18 py-2">
-            <div class="flex text-white text-sm">
-                <div class="flex-none w-1/2 space-y-10 sm:space-y-8 lg:flex lg:space-y-0">
-                    <div class="lg:flex-none lg:w-1/2">
-                        <h2 class="font-semibold text-slate-900 dark:text-slate-100">Links</h2>
+            <div class="flex flex-col sm:flex-row text-white text-sm gap-y-4">
+                <div class="flex-none justify-center w-full sm:w-1/3 space-y-10 sm:space-y-8 lg:flex lg:space-y-0">
+                    <div class="lg:flex-none">
+                        <h2 class="font-semibold underline text-slate-900 dark:text-slate-100">Links</h2>
                         <ul class="mt-3 space-y-2">
                             <li>
                                 <a class="underline-animation" href="https://uniba.sk/en/" target="_blank">Comenius University</a>
@@ -21,12 +21,48 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="flex-none justify-center w-full sm:w-1/3 space-y-10 sm:space-y-8 lg:flex lg:space-y-0">
+                    <div class="lg:flex-none">
+                        <h2 class="font-semibold underline text-slate-900 dark:text-slate-100">Contribute</h2>
+                        <ul class="mt-3 space-y-2">
+                            <li>
+                                <a class="underline-animation" href="https://uniba.sk/en/" target="_blank">Research</a>
+                            </li>
+                            <li>
+                                <a class="underline-animation" href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank">Donate data</a>
+                            </li>
+                            <li>
+                                <a href='https://ko-fi.com/I2I43R998' target='_blank' class="flex items-center">
+                                    <span class="underline-animation mr-2">Buy us a Coffee</span><img src="/img/kofilogo_bluebg.png" alt="Buy us a coffee at ko-fi.com" class="w-8 h-auto" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex-none justify-center w-full sm:w-1/3 space-y-10 sm:space-y-8 lg:flex lg:space-y-0">
+                    <div class="lg:flex-none">
+                        <h2 class="font-semibold underline text-slate-900 dark:text-slate-100">Legal</h2>
+                        <ul class="mt-3 space-y-2">
+                            <li>
+                                <a class="underline-animation" href="https://uniba.sk/en/" target="_blank">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a class="underline-animation" href="https://marie-sklodowska-curie-actions.ec.europa.eu/" target="_blank">Terms of Service</a>
+                            </li>
+                            <li>
+                                <a class="underline-animation" href="https://fns.uniba.sk/en/" target="_blank">Infrastructure</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="flex flex-row justify-center text-white text-xs font-bold mt-5 pt-2">
                 <div class="bg-white mr-1 text-center self-center">
                     <span class="text-black">M</span>
                 </div>
-                <span>Copyright of mineralogy.rocks (2022). All rights reserved.</span>
+                <span class="text-center">Copyright of mineralogy.rocks (2022). All rights reserved.</span>
             </div>
         </div>
     </footer>

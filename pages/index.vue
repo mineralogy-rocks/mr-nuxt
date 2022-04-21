@@ -192,7 +192,7 @@
             </p>
 
             <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
-                <div class="md:col-span-6">
+                <div class="md:col-span-6 align-top">
                     <div class="flex justify-center items-center">
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Contribute<span class="mdi text-2xl md:text-3xl mdi-github ml-2"></span></h4>
                     </div>
@@ -208,7 +208,7 @@
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Core team<span class="mdi text-2xl md:text-3xl mdi-account-group ml-2"></span></h4>
                     </div>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                        The core team consists of world class researchers in the area of mineralogy, geochemistry, petrology and geology from 
+                        The core team includes world class researchers in the area of mineralogy, geochemistry, petrology and geology from 
                         <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://uniba.sk" target="_blank">Comenius University (Slovakia) 🇸🇰</a>, 
                         <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://www.unibe.ch/index_eng.html" target="_blank">University of Bern (Switzerland) 🇨🇭</a>
                         and <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://www.oulu.fi/en" target="_blank">University of Oulu (Finland) 🇫🇮</a>.

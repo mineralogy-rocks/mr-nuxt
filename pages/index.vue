@@ -17,7 +17,7 @@
                 </div>
 
                 <p class="text-sm md:text-base text-gray-500 text-center mt-7">
-                    Mineralogy.rocks provide seamless and simple way to access and filter mineralogical and related data. </br>
+                    <span class="font-bold">Mineralogy.rocks</span> provide seamless and simple way to access and filter mineralogical and related data. </br>
                     Our platform is designed both for researchers and developers.
                 </p>
             </div>
@@ -78,8 +78,8 @@
                 <div class="md:col-span-6 flex flex-col">
                     <h4 class="font-bold text-xl md:text-3xl">Developer?</h4>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                        The data is accessible via api.mineralogy.rocks through your favourite http client! Check out current state of 
-                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://api.mineralogy.rocks" target="_blank">API documentation</a>.
+                        The data is accessible via <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://api.mineralogy.rocks" target="_blank">api.mineralogy.rocks</a> through your favourite <span class="font-semibold">http client</span>! Check out current state of 
+                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://api.mineralogy.rocks/docs" target="_blank">API documentation</a>.
                     </p>
                 </div>
 
@@ -121,7 +121,7 @@
             </div>
             <h2 class="font-black text-3xl sm:text-4xl md:text-6xl mx-auto mt-4">Download the data</h2>
             <p class="text-sm md:text-base px-4 md:px-6 text-gray-500 text-center mt-7">
-                The platform makes the data extraction easy and simple. No matter what data you need - 
+                The platform makes the <span class="font-semibold">data extraction</span> easy and simple. No matter what data you need - 
                 you can savely extract it to your local machine.
             </p>
 
@@ -162,7 +162,7 @@
                         </div>
                         <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
                             Export the data in a preferred format or connect your application directly to API. 
-                            Mineralogy.rocks is updating its data services in order to meet the evolving demands of research community, please contact us in case of specific data format/output needs.
+                            <span class="font-semibold">Mineralogy.rocks</span> is updating its data services in order to meet the evolving demands of research community, please contact us in case of specific data format/output needs.
                         </p>
 
                     </div>
@@ -171,7 +171,7 @@
                             <h4 class="font-bold text-xl md:text-3xl">Share the query<span class="mdi text-2xl md:text-3xl mdi-check-circle-outline ml-2"></span></h4>
                         </div>
                         <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                            All filtering systems are connected to the query params of the URL string - you’ll never loose your results once you obtained them.
+                            All filtering systems are connected to the query params of the <span class="font-semibold">URL string</span> - you’ll never loose your results once you obtained them.
                         </p>
                     </div>
                 </div>
@@ -191,16 +191,16 @@
                 We believe in open science and open source - things that make our lives better.  
             </p>
 
-            <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
-                <div class="md:col-span-6 align-top">
+            <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-0 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14">
+                <div class="md:col-span-6">
                     <div class="flex justify-center items-center">
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Contribute<span class="mdi text-2xl md:text-3xl mdi-github ml-2"></span></h4>
                     </div>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
                         Join our computing community 
                         <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://github.com/mineralogy-rocks" target="_blank">mineralogy-rocks</a> 
-                        and start contributing as a member. We will guide you in setting up the environment and 
-                        provide help at every step of the development process.
+                        and start contributing as a member. For code-related threads and suggestions, visit our 
+                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://github.com/orgs/mineralogy-rocks/discussions" target="_blank">GitHub Discussions Channel</a>.
                     </p>
                 </div>
                 <div class="md:col-span-6">

@@ -1,10 +1,11 @@
 <template>
-    <div class="bg-white min-h-full flex flex-col">
+    <div class="bg-white min-h-screen flex flex-col">
         <toolbar></toolbar>
         <nuxt></nuxt>
-        <footer-component></footer-component>
+        <footer-component class="mt-auto"></footer-component>
     </div>
 </template>
+
 
 <script>
     import Toolbar from 'Components/layout/toolbar';
@@ -20,4 +21,6 @@
     };
 </script>
 
-<style lang="scss" scoped></style>
+
+<style lang="scss" scoped>
+</style>

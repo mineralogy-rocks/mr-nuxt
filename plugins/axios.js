@@ -12,7 +12,7 @@ export default function (context, inject) {
         proxyHeaders: false,
     }
 
-    const Api = $axios.create({ baseURL: BASE_API_URL, ...options });
+    const api = $axios.create({ baseURL: BASE_API_URL, ...options });
 
-    inject('Api', Api);
+    inject('api', api);
 }

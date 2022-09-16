@@ -39,7 +39,7 @@ module.exports = {
         'vue/multi-word-component-names': [
             'error',
             {
-                ignores: ['Toolbar', 'Footer'],
+                ignores: ['Toolbar', 'Footer', 'mineral',],
             },
         ],
         'vue/script-indent': [

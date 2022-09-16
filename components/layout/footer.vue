@@ -1,7 +1,7 @@
 <template>
-    <footer class="bg-black min-h-4 bottom-0 z-20 w-full shadow-xl mt-20 mx-auto">
-        <div class="max-w-7xl mx-auto divide-y divide-gray-600 px-10 sm:px-16 md:px-18 py-2">
-            <div class="flex flex-col sm:flex-row text-white text-sm gap-y-6">
+    <footer class="bg-black min-h-4 z-20 w-full shadow-xl py-6 mx-auto">
+        <div class="max-w-7xl mx-auto divide-y divide-gray-600 px-10 sm:px-16 md:px-18">
+            <div class="flex flex-col sm:flex-row text-white text-xs sm:text-sm gap-y-6 py-6">
                 <div class="flex-none justify-center w-full sm:w-1/3 space-y-10 sm:space-y-8 lg:flex lg:space-y-0 px-2">
                     <div class="lg:flex-none">
                         <h2 class="font-semibold underline text-slate-900 dark:text-slate-100">Links</h2>

@@ -32,7 +32,7 @@
             </div>
             <h2 class="font-black text-3xl sm:text-4xl md:text-6xl mx-auto mt-4">Start with exploring the data</h2>
             <p class="text-sm md:text-base px-4 md:px-6 text-gray-500 text-center mt-7">
-                The platform is developed by the researchers for the researchers. Our goal is to provide data for scientific needs in a coherent fashion. </br> 
+                The platform is developed by the researchers for the researchers. Our goal is to provide data for scientific needs in a coherent fashion. </br>
                 Start with finding the right subset of data and exploring the relations between minerals.
             </p>
 
@@ -40,7 +40,7 @@
                 <div class="md:col-span-6 flex flex-col">
                     <h4 class="font-bold text-xl md:text-3xl">Researcher?</h4>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                        Check out our filtering system at 
+                        Check out our filtering system at
                         <n-link class="text-blue-600 visited:text-purple-600 hover:underline" :to="'/explore'">mineralogy.rocks/explore</n-link>.
                         You are able to make complex queries, combine those and explore the results.
                     </p>
@@ -78,13 +78,13 @@
                 <div class="md:col-span-6 flex flex-col">
                     <h4 class="font-bold text-xl md:text-3xl">Developer?</h4>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                        The data is accessible via <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://api.mineralogy.rocks" target="_blank">api.mineralogy.rocks</a> through your favourite <span class="font-semibold">http client</span>! Check out current state of 
+                        The data is accessible via <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://api.mineralogy.rocks" target="_blank">api.mineralogy.rocks</a> through your favourite <span class="font-semibold">http client</span>! Check out current state of
                         <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://api.mineralogy.rocks/docs" target="_blank">API documentation</a>.
                     </p>
                 </div>
 
                 <div class="md:col-span-6">
-                    <div class="overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
+                    <div class="overflow-hidden shadow-xl flex bg-ternary h-38 max-h-40 sm:max-h-[none] rounded-xl">
                         <div class="w-full flex flex-col">
                             <div class="flex-none border-b border-gray-500/30">
                                 <div class="flex items-center bg-gray-600 h-8 space-x-1.5 px-3">
@@ -100,7 +100,7 @@
          -H "Content-type: application/json" \
          -H "Accept: application/json" \
          -d "offset=10" \
-         -d "ordering=status_id" \ 
+         -d "ordering=status_id" \
          "https://api.mineralogy.rocks/v1/status"</span></span></code>
                                         </pre>
                                     </div>
@@ -121,14 +121,14 @@
             </div>
             <h2 class="font-black text-3xl sm:text-4xl md:text-6xl mx-auto mt-4">Download the data</h2>
             <p class="text-sm md:text-base px-4 md:px-6 text-gray-500 text-center mt-7">
-                The platform makes the <span class="font-semibold">data extraction</span> easy and simple. No matter what data you need - 
+                The platform makes the <span class="font-semibold">data extraction</span> easy and simple. No matter what data you need -
                 you can savely extract it to your local machine.
             </p>
 
             <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-2 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14 items-center">
 
                 <div class="md:col-span-6">
-                    <div class="overflow-hidden shadow-xl flex bg-red-50 h-38 max-h-40 sm:max-h-[none] rounded-xl">
+                    <div class="overflow-hidden shadow-xl flex bg-ternary h-38 max-h-40 sm:max-h-[none] rounded-xl">
                         <div class="w-full flex flex-col">
                             <div class="flex-none border-b border-gray-500/30">
                                 <div class="flex items-center bg-gray-600 h-8 space-x-1.5 px-3">
@@ -161,7 +161,7 @@
                             <h4 class="font-bold text-xl md:text-3xl justify-center">Fetch data flexibly<span class="mdi text-2xl md:text-3xl mdi-code-tags ml-2"></span></h4>
                         </div>
                         <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                            Export the data in a preferred format or connect your application directly to API. 
+                            Export the data in a preferred format or connect your application directly to API.
                             <span class="font-semibold">Mineralogy.rocks</span> is updating its data services in order to meet the evolving demands of research community, please contact us in case of specific data format/output needs.
                         </p>
 
@@ -188,7 +188,7 @@
             <h2 class="font-black text-3xl sm:text-4xl md:text-6xl mx-auto mt-4">Do research with us</h2>
             <p class="text-sm md:text-base px-4 md:px-6 text-gray-500 text-center mt-7">
                 We will gladly assist you in finding the right data in a right format.
-                We believe in open science and open source - things that make our lives better.  
+                We believe in open science and open source - things that make our lives better.
             </p>
 
             <div class="max-w-5xl mx-auto px-4 md:px-6 md:grid md:grid-cols-12 space-y-6 md:space-y-0 gap-2 sm:gap-3 md:gap-7 mt-10 md:mt-14">
@@ -197,9 +197,9 @@
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Contribute<span class="mdi text-2xl md:text-3xl mdi-github ml-2"></span></h4>
                     </div>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                        Join our computing community 
-                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://github.com/mineralogy-rocks" target="_blank">mineralogy-rocks</a> 
-                        and start contributing as a member. For code-related threads and suggestions, visit our 
+                        Join our computing community
+                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://github.com/mineralogy-rocks" target="_blank">mineralogy-rocks</a>
+                        and start contributing as a member. For code-related threads and suggestions, visit our
                         <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://github.com/orgs/mineralogy-rocks/discussions" target="_blank">GitHub Discussions Channel</a>.
                     </p>
                 </div>
@@ -208,8 +208,8 @@
                         <h4 class="font-bold text-xl md:text-3xl justify-center">Core team<span class="mdi text-2xl md:text-3xl mdi-account-group ml-2"></span></h4>
                     </div>
                     <p class="text-sm md:text-base text-gray-500 text-justify mt-5">
-                        The core team includes world class researchers in the area of mineralogy, geochemistry, petrology and geology from 
-                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://uniba.sk" target="_blank">Comenius University (Slovakia) 🇸🇰</a>, 
+                        The core team includes world class researchers in the area of mineralogy, geochemistry, petrology and geology from
+                        <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://uniba.sk" target="_blank">Comenius University (Slovakia) 🇸🇰</a>,
                         <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://www.unibe.ch/index_eng.html" target="_blank">University of Bern (Switzerland) 🇨🇭</a>
                         and <a class="text-blue-600 visited:text-purple-600 hover:underline" href="https://www.oulu.fi/en" target="_blank">University of Oulu (Finland) 🇫🇮</a>.
                     </p>
@@ -217,7 +217,7 @@
             </div>
         </section>
 
-        <section class="text-center px-6 sm:px-8 mt-40 mx-auto">
+        <section class="text-center px-6 sm:px-8 mt-40 mb-10 mx-auto">
             <div class="flex flex-col justify-center items-center">
                 <h3 class="font-bold text-2xl md:text-4xl">Supported by</h3>
                 <div class="flex flex-row flex-wrap max-w-screen-xl mx-auto mt-10 gap-2 md:gap-5 lg:gap-10 items-center justify-evenly">
@@ -237,14 +237,14 @@
 
                 <div class="max-w-screen-sm text-center mt-10">
                     <p class="text-sm md:text-base text-gray-500">
-                        This project has received funding from the European Union's Horizon 2020 research and innovation programme under the 
+                        This project has received funding from the European Union's Horizon 2020 research and innovation programme under the
                         <span class="font-semibold italic">Marie Skłodowska-Curie grant agreement No 945478</span>.
                     </p>
                 </div>
             </div>
         </section>
     </div>
-</template> 
+</template>
 
 <script>
     export default {
